@@ -17,21 +17,18 @@ The project consists in analyzing flows from.xml files and detecting offensive f
 
 Python3 is required
 
-Set proxy (required on UBS computer)
+Install virtualenv with pip
 ```bash
-export http_proxy='http://squidva.univ-ubs.fr:3128/'
-export https_proxy='https://squidva.univ-ubs.fr:3128/'
+pip install virtualenv
 ```
 
-Install pip and virtualenv (required on UBS computer)
-```bash
-easy_install pip --user
-pip install virtualenv --user
-```
-
-Set and activate virtualenv
+Create an virtual env
 ```bash
 virtualenv -p python3 venv
+```
+
+Activate virtualenv
+```bash
 source venv/bin/activate # linux & macOS
 ./venv/Scripts/activate  # windows
 ```
@@ -64,6 +61,10 @@ brew install elastic/tap/elasticsearch-full
 ```
 
 windows:
+```shell
+```
+
+docker:
 ```shell
 ```
 
